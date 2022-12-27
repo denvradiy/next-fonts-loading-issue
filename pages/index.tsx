@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import {inter} from "./_app";
 
 
 export default function Home() {
@@ -64,7 +65,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2>
+            <h2 className={inter.className}>
               Docs <span>-&gt;</span>
             </h2>
             <p>
